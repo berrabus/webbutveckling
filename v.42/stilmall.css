@@ -1,0 +1,25 @@
+.flex-container {
+     display:flex;
+     width: 1500px;
+     height: 1000px;
+     background-color: none;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     flex-wrap: wrap;
+}
+
+
+.flex-item {
+  background-color: none;
+  width: 300px;
+  height: 80px;
+  margin: 20px;
+  align-self: center;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}

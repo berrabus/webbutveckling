@@ -1,0 +1,36 @@
+body{
+  background-color: green;
+}
+.container {
+     display:flex;
+     width: 600px;
+     height: 600px;
+     background-color: black;
+     flex-direction: column;
+     border-style: solid;
+     justify-content: space-around;
+     align-items: center;
+     margin: auto;
+     margin-top: 100px;
+     flex-wrap: no-wrap;
+}
+
+.rad {
+   display: flex;
+   background-color: red;
+   width: 500px;
+   height: 70px;
+   border-style: solid;
+   border-color: white;
+   justify-content: space-around;
+
+   align-items: center;
+}
+
+.item {
+   background-color: blue;
+   width: 50px;
+   height: 35px;
+   border-style: solid;
+   border-color: white;
+}

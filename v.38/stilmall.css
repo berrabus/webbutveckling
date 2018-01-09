@@ -1,0 +1,22 @@
+h1{
+  /* egenskap:värde */
+  color:#ff6699;
+  font syle: inherit;
+
+}
+/* Vi kan skapa klasser
+som har speciella egenskaper.
+används när samma egenskaper ska
+tilldelas flera objekt */
+.gul {
+  color:red;
+}
+.normal {
+  color:yellow;
+}
+/* id fungerar som klass men har
+också egenskapen att unikt
+identifiera ett element */
+#stor {
+  font-size: 48px;
+}
