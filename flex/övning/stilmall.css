@@ -1,0 +1,27 @@
+body{
+
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  background-color: green;
+  flex-direction: column;
+  justify-content: space-around;
+  margin:auto;
+}
+
+.rad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 100px;
+}

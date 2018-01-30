@@ -1,0 +1,25 @@
+ body{
+   background-color: purple;
+ }
+ .over {
+   background-color: yellow;
+   width: 150px;
+   height: 40px;
+   border-style: dashed;
+ }
+
+ .under {
+   display: none;
+ }
+
+ .over:hover .under {
+   display: block;
+ }
+
+ .container1 {
+   display: flex;
+   background-color: green;
+   height:100px;
+   width: 750px;
+   margin: auto;
+ }
