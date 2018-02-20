@@ -1,13 +1,23 @@
-.over {
-     background-color: lightblue;
-     width: 500px;
-     height: 100px;
-     border-radius: 5px;
-     border-style: dotted;
-     box-shadow: 20px 20px 10px #888888;
-     padding: 7px;
+body {
+  background-color: black;
 }
 
+.over {
+     background-color: blue;
+     width: 1500px;
+     height: 220px;
+     border-radius: 5px;
+     border-style: double;
+     border-color: orange;
+     /*box-shadow: 20px 20px 10px #888888;*/
+     padding: 7px;
+     margin-top: 5px;
+     margin-left: 60px;
+     text-align: left;
+     font-size: 40px;
+     color: red;
+     text-decoration: underline;
+}
 
 .under {
   display: none;
@@ -16,11 +26,12 @@
 
 .over:hover .under {
   display: block;
-  background-color: pink;
-  width: 500px;
-  height: 100px;
+  background-color: orange;
+  width: 1500px;
+  height: 50px;
   border-radius: 5px;
   border-style: solid;
-  box-shadow: 10px 10px 5px #888888;
+  border-color: blue;
+  /*box-shadow: 10px 10px 5px #888888;*/
   padding: 7px;
 }
