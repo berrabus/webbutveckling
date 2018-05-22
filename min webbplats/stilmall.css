@@ -1,23 +1,27 @@
 .dropbtn {
-    background-color: #cc0000;
+    background-color: green;
     color: white;
     padding-left: 25px;
     font-size: 120px;
     border: none;
-
+    padding: 7px;
+    text-decoration: overline;
+    text-align: center;
+    border-radius: 5px;
+    border-style: double;
+    border-color: black;
+    box-shadow: 20px 20px 10px black;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
 .dropdown-content {
     display: none;
     position: relative;
-    background-color: #f9f9f9;
+    background-color: green;
     min-width: 160px;
-    z-index: 1;
+    border-radius: 5px;
+    border-style: double;
+    border-color: black;
 }
 
 .dropdown-content a {
@@ -34,37 +38,62 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #cc0000;
+    background-color: black;
 }
 
 
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
-/*.dropbtn {
-    background-color: red;
-    color: white;
-    padding: 16px;
-    font-size: 140px;
-    border: none;
-    cursor: pointer;
+  display: flex;
+
+  justify-content: space-around;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+.flex-item {
+  background: black;
+  padding: 5px;
+  width: 200px;
+  height: 500px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }
 
-.dropdown-content {
+tr {
+  background-color: yellow;
   color: black;
-  padding: 15px 20px;
   text-decoration: underline;
-  display: block;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}/*
+h2 {
+  background-color: yellow;
+  text-decoration: underline;
+}
+
+img {
+    margin-left: 200px;
+    margin-top: 10px;
+    float: right;
+}
+
+ol{
+  background-color: orange;
+}
+
+h3{
+  background-color: orange;
+}
+
+h4{
+  background-color:red;
+}
+
+ol.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
