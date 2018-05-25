@@ -1,6 +1,6 @@
 .dropbtn {
     background-color: green;
-    color: white;
+    color: #ff3333;
     padding-left: 25px;
     font-size: 120px;
     border: none;
@@ -10,7 +10,7 @@
     border-radius: 5px;
     border-style: double;
     border-color: black;
-    box-shadow: 20px 20px 10px black;
+    box-shadow: 20px 20px 10px red;
 }
 
 
@@ -29,9 +29,10 @@
     padding: 19px 120px;
     text-decoration: underline;
     display: block;
+    font-size: 25px;
 }
 
-.dropdown-content a:hover {background-color: grey}
+.dropdown-content a:hover {background-color: yellow}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -50,10 +51,11 @@
   display: flex;
 
   justify-content: space-around;
+
 }
 
 .flex-item {
-  background: black;
+  background: green;
   padding: 5px;
   width: 200px;
   height: 500px;
@@ -68,12 +70,14 @@
 tr {
   background-color: yellow;
   color: black;
-  text-decoration: underline;
+  text-decoration: underline overline;
+  font-size: 25px;
 }
 
 h2 {
   background-color: yellow;
   text-decoration: underline;
+  font-size: 30px;
 }
 
 img {
@@ -88,12 +92,23 @@ ol{
 
 h3{
   background-color: orange;
+  font-family: 'Bungee Shade';font-size: 48px;
 }
 
 h4{
-  background-color:red;
+  background-color:red;font-size: 40px;
 }
 
 ol.sansserif {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;font-size: 24px;
+}
+
+button{
+  font-size: 30px;
+}
+
+p{
+  font-size: 40px;
+  background-color: blue;
+  color: white;
 }
